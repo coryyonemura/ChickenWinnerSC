@@ -3,7 +3,7 @@ from discord.ext import commands, tasks
 from datetime import datetime, timedelta
 from dateutil import parser
 
-TOKEN = "MTE2NTg0MDUyMDA2NTU4NTI1Mw.GJloZA.39lviZ5DEUCHMk1ixcCKMbjFOkiR3l3oq2dC6o"
+TOKEN = "TOKEN"
 PREFIX = '!'
 
 intents = discord.Intents.default()
