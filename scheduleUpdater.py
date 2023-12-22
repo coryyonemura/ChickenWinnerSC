@@ -36,6 +36,19 @@ def print_remaining_schedule(file_path):
     for game in json_data:
         print(game)
 
+def return_first_game(file_path):
+    with open(file_path) as file:
+        json_data = json.load(file)
+
+    return json_data[0]
+
+def get_next_gametime(file_path):
+    with open(file_path) as file:
+        json_data = json.load(file)
+    date = json_data[0]['dateET'][0:10]+" "+json_data[0]['dateET'][11:]
+    return date
+
 
 # get_entire_schedule('allDucksGames.json', 'ducksScheduleUpdated.json')
+# update_schedule("ducksScheduleUpdated.json")
 
