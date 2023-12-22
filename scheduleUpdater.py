@@ -37,5 +37,5 @@ def print_remaining_schedule(file_path):
         print(game)
 
 
-get_entire_schedule('allDucksGames.json', 'ducksScheduleUpdated.json')
+# get_entire_schedule('allDucksGames.json', 'ducksScheduleUpdated.json')
 
