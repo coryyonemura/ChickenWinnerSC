@@ -3,6 +3,7 @@ from discord.ext import commands, tasks
 from datetime import datetime
 import pytz
 from scheduleUpdater import return_first_game, get_next_gametime, update_schedule
+from hockeyRequests import get_score
 
 TOKEN = "TOKEN"
 PREFIX = '!'
@@ -23,15 +24,19 @@ async def on_ready():
 @bot.command(name="nextGame")
 async def nextGame(ctx):
     game = return_first_game("ducksScheduleUpdated.json")
-    date = game['dateET']
-    time = int(date[11:13])-3
+    dateGame = game['dateET']
+    time = int(dateGame[11:13]) - 3
+    date = dateGame[0:10]+" "+str(time)+dateGame[13:]
+
+    datetime_obj = datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
+    written_date = datetime_obj.strftime('%B %d, %Y at %I:%M%p')
+
     await ctx.send(f'the next eligible game is an NHL game. '
-                   f'the Anaheim Ducks are playing agianst the {game["awayEventResult"]["competitor"]["name"]}'
-                   f' on {date[5:10]}-{date[0:4]} at {time}{date[13:]}PT')
+                   f'the Anaheim Ducks are playing against the {game["awayEventResult"]["competitor"]["name"]}'
+                   f' on {written_date} PT')
 
 def get_seconds(game_time):
     # Convert the date string to a datetime object
-    
     target_date = datetime.strptime(game_time, "%Y-%m-%d %H:%M:%S")
 
     # Set the time zone to Eastern Time
@@ -51,8 +56,6 @@ async def countdown_to_next_game():
     global seconds_until_game
     print(seconds_until_game[0])
     if seconds_until_game[0] <= 0:
-
-
         channel_id = 1187128458774585396
         channel = bot.get_channel(channel_id)
 
@@ -60,7 +63,7 @@ async def countdown_to_next_game():
             await channel.send(f'the game has started! support your local team and potentially win free chicken!')
 
         # call a new task function that calls the data from the live data and checks for goals scored
-
+        check_goals.start()
         #update the json file
         update_schedule("ducksScheduleUpdated.json")
 
@@ -68,8 +71,18 @@ async def countdown_to_next_game():
 
     else:
         seconds_until_game[0] -= 60
-    
-
+#
+@tasks.loop(seconds=60)
+async def check_goals():
+    score = get_score()
+    if score == -1:
+        check_goals.stop()
+    else:
+        if score >= 5:
+            channel_id = 1187128458774585396
+            channel = bot.get_channel(channel_id)
+            await channel.send(f'the Anaheim Ducks have scored 5 goals! Claim your free chicken on the cfa app before midnight!')
+            check_goals.stop()
 
 
 bot.run(TOKEN)

@@ -1,0 +1,160 @@
+{
+	"events": [
+		{
+			"tournament": {
+				"name": "NHL",
+				"slug": "nhl",
+				"category": {
+					"name": "USA",
+					"slug": "usa",
+					"sport": {
+						"name": "Ice hockey",
+						"slug": "ice-hockey",
+						"id": 4
+					},
+					"id": 37,
+					"flag": "usa",
+					"alpha2": "US"
+				},
+				"uniqueTournament": {
+					"name": "NHL",
+					"slug": "nhl",
+					"secondaryColorHex": "#808291",
+					"category": {
+						"name": "USA",
+						"slug": "usa",
+						"sport": {
+							"name": "Ice hockey",
+							"slug": "ice-hockey",
+							"id": 4
+						},
+						"id": 37,
+						"flag": "usa",
+						"alpha2": "US"
+					},
+					"userCount": 23988,
+					"id": 234,
+					"country": {},
+					"hasEventPlayerStatistics": false,
+					"hasBoxScore": true,
+					"crowdsourcingEnabled": false,
+					"hasPerformanceGraphFeature": false,
+					"displayInverseHomeAwayTeams": true
+				},
+				"priority": 20,
+				"id": 142
+			},
+			"season": {
+				"name": "NHL 23\/24",
+				"year": "23\/24",
+				"editor": false,
+				"id": 52528
+			},
+			"roundInfo": {
+				"round": 1
+			},
+			"customId": "KybsZyb",
+			"status": {
+				"code": 1,
+				"description": "1st period",
+				"type": "inprogress"
+			},
+			"homeTeam": {
+				"name": "Detroit Red Wings",
+				"slug": "detroit-red-wings",
+				"shortName": "Red Wings",
+				"gender": "M",
+				"sport": {
+					"name": "Ice hockey",
+					"slug": "ice-hockey",
+					"id": 4
+				},
+				"userCount": 4144,
+				"nameCode": "DET",
+				"disabled": false,
+				"national": false,
+				"type": 0,
+				"id": 3685,
+				"country": {
+					"alpha2": "US",
+					"name": "USA"
+				},
+				"subTeams": [],
+				"teamColors": {
+					"primary": "#ffffff",
+					"secondary": "#ce1126",
+					"text": "#ce1126"
+				}
+			},
+			"awayTeam": {
+				"name": "Philadelphia Flyers",
+				"slug": "philadelphia-flyers",
+				"shortName": "Flyers",
+				"gender": "M",
+				"sport": {
+					"name": "Ice hockey",
+					"slug": "ice-hockey",
+					"id": 4
+				},
+				"userCount": 3231,
+				"nameCode": "PHI",
+				"disabled": false,
+				"national": false,
+				"type": 0,
+				"id": 3699,
+				"country": {
+					"alpha2": "US",
+					"name": "USA"
+				},
+				"subTeams": [],
+				"teamColors": {
+					"primary": "#f74902",
+					"secondary": "#000000",
+					"text": "#000000"
+				}
+			},
+			"homeScore": {
+				"current": 1,
+				"display": 1,
+				"period1": 1
+			},
+			"awayScore": {
+				"current": 0,
+				"display": 0,
+				"period1": 0
+			},
+			"time": {
+				"played": 337,
+				"periodLength": 1200,
+				"overtimeLength": 300,
+				"totalPeriodCount": 3,
+				"currentPeriodStartTimestamp": 1703290126
+			},
+			"changes": {
+				"changes": [
+					"time.played",
+					"time.played"
+				],
+				"changeTimestamp": 1703290682
+			},
+			"hasGlobalHighlights": false,
+			"hasEventPlayerStatistics": true,
+			"crowdsourcingDataDisplayEnabled": false,
+			"id": 11385796,
+			"startTimestamp": 1703289600,
+			"slug": "philadelphia-flyers-detroit-red-wings",
+			"periods": {
+				"current": "Score",
+				"period1": "1st period",
+				"period2": "2nd period",
+				"period3": "3rd period",
+				"overtime": "Overtime",
+				"penalties": "Penalty"
+			},
+			"lastPeriod": "period1",
+			"finalResultOnly": false,
+			"isEditor": false,
+			"crowdsourcingEnabled": false
+		}
+	]
+}
