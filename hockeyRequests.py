@@ -29,14 +29,15 @@ def get_score():
 
         json_data = json.loads(data)
 
-        file_path = os.path.join("jsonFiles", 'liveData.json')
-        with open(file_path, 'w') as json_file:
+        with open('jsonFiles/liveData.json', 'w') as json_file:
             json.dump(json_data, json_file, indent = 2)
 
-        with open(file_path) as f:
+        with open('jsonFiles/liveData.json') as f:
             jsondata = json.load(f)
+        # print('works')
 
     except:
+        # print("didn't work")
         RuntimeError("Could not retrieve data")
 
     for game in jsondata['events']:

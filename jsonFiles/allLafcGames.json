@@ -1,0 +1,2751 @@
+[
+    {
+        "optaId": 2414861,
+        "slug": "lafcvssea-02-24-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 3500,
+            "fullName": "Seattle Sounders FC",
+            "slug": "seattle-sounders-fc",
+            "shortName": "Seattle",
+            "abbreviation": "SEA",
+            "backgroundColor": "#2dc84d",
+            "logoBWSlug": "webcomp_d48039f4-62b6-445a-bcb7-fe2f76e003f2",
+            "logoColorSlug": "webcomp_a5251f90-8f18-4517-b3d3-5aa5f66696dc",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1702319240/assets/sea/logos/SEA2023-Full_Color-480x480_fk6mpu.png",
+            "crestColorSlug": "webcomp_54004f6d-5a0e-45ba-84b7-2333f6802125"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            },
+            {
+                "broadcasterTypeLabel": "National TV",
+                "broadcasterName": "FOX",
+                "broadcasterStreamingURL": "",
+                "broadcasterType": "US TV"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-02-24T13:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "1",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2414873,
+        "slug": "rslvslafc-03-02-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 1899,
+            "fullName": "Real Salt Lake",
+            "slug": "real-salt-lake",
+            "shortName": "Salt Lake",
+            "abbreviation": "RSL",
+            "backgroundColor": "#001E61",
+            "logoBWSlug": "webcomp_35672ef3-a975-4e9d-a458-96270b5bfb6f",
+            "logoColorSlug": "webcomp_f7cbc2c6-6640-4562-b994-6559396e10af",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1625175977/assets/logos/RSL-Logo-480px_j5pblf.png",
+            "crestColorSlug": "webcomp_f7cbc2c6-6640-4562-b994-6559396e10af"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "4341",
+            "backgroundImageSlug": "",
+            "name": "America First Field",
+            "city": "Sandy, Utah"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-03-02T19:00:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "2",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2414891,
+        "slug": "lafcvsskc-03-09-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 421,
+            "fullName": "Sporting Kansas City",
+            "slug": "sporting-kansas-city",
+            "shortName": "Kansas City",
+            "abbreviation": "SKC",
+            "backgroundColor": "#0C2340",
+            "logoBWSlug": "webcomp_3eee8541-16f1-4dfc-a366-b6b4d19e4a30",
+            "logoColorSlug": "webcomp_5227c7e9-ad7e-402d-a910-160052addcf4",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970745/assets/logos/421-sporting-kc-logo_pyhxo8.png",
+            "crestColorSlug": "webcomp_164c77dc-f6f3-47a3-bac4-002202ba0a11"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-03-09T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "3",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415113,
+        "slug": "minvslafc-03-16-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 6977,
+            "fullName": "Minnesota United",
+            "slug": "minnesota-united-fc",
+            "shortName": "Minnesota",
+            "abbreviation": "MIN",
+            "backgroundColor": "#737B82",
+            "logoBWSlug": "webcomp_73d6b760-8b5f-44fb-9ed8-19435b008968",
+            "logoColorSlug": "webcomp_a1c50cc7-da2a-49d9-a255-474b2782fd6a",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970757/assets/logos/6977-minnesota-logo_tzjlhe.png",
+            "crestColorSlug": "webcomp_858d4cc5-5d2c-4d30-a173-50bac6381c30"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "13671",
+            "backgroundImageSlug": "",
+            "name": "Allianz Field",
+            "city": "Minnesota"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-03-17T00:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "4",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2414917,
+        "slug": "lafcvsnsh-03-23-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 15154,
+            "fullName": "Nashville SC",
+            "slug": "nashville-sc",
+            "shortName": "Nashville",
+            "abbreviation": "NSH",
+            "backgroundColor": "#201547",
+            "logoBWSlug": "webcomp_b3d805f5-5d7f-4926-a65c-29ae08493cd0",
+            "logoColorSlug": "webcomp_87c8320f-6bff-4247-ac84-580963d205c5",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970761/assets/logos/15154-nashville-logo_ldatso.png",
+            "crestColorSlug": "webcomp_9de3cddb-d099-4e7a-a21f-35ef63ce0699"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-03-23T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "5",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2414931,
+        "slug": "colvslafc-03-30-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 436,
+            "fullName": "Colorado Rapids",
+            "slug": "colorado-rapids",
+            "shortName": "Colorado",
+            "abbreviation": "COL",
+            "backgroundColor": "#8A2432",
+            "logoBWSlug": "webcomp_b51660a4-4015-4a32-b1c5-f47c95c9ca66",
+            "logoColorSlug": "webcomp_c9a9244f-09e3-4e68-a741-3f88948a1c9c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970746/assets/logos/436-colorado-logo_yifx69.png",
+            "crestColorSlug": "webcomp_99232c2a-d3a1-47b6-bda1-10ec2a9cacfe"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "3357",
+            "backgroundImageSlug": "",
+            "name": "Dick's Sporting Goods Park",
+            "city": "Commerce City, Colorado"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-03-30T20:00:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "6",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2414944,
+        "slug": "lafcvsla-04-06-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 1230,
+            "fullName": "LA Galaxy",
+            "slug": "la-galaxy",
+            "shortName": "LA",
+            "abbreviation": "LA",
+            "backgroundColor": "#004B87",
+            "logoBWSlug": "webcomp_b18f064c-5843-4a56-9b8b-15246d317e2e",
+            "logoColorSlug": "webcomp_0dfebd51-1d40-46cb-b13c-39ae6cb16f54",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620997961/assets/logos/LA-Logo-480px.png",
+            "crestColorSlug": "webcomp_bbaa016d-ef06-4219-973b-a05158425761"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            },
+            {
+                "broadcasterTypeLabel": "National TV",
+                "broadcasterName": "FOX",
+                "broadcasterStreamingURL": "",
+                "broadcasterType": "US TV"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-04-06T16:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "7",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2414958,
+        "slug": "porvslafc-04-13-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 1581,
+            "fullName": "Portland Timbers",
+            "slug": "portland-timbers",
+            "shortName": "Portland",
+            "abbreviation": "POR",
+            "backgroundColor": "#004812",
+            "logoBWSlug": "webcomp_e8545a05-ee03-49db-a7eb-9e1318240244",
+            "logoColorSlug": "webcomp_91c9ad8e-91ee-4a8b-ba99-3d317006dcc7",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1626094359/assets/logos/POR-Logo-480px_xh4gvt.png",
+            "crestColorSlug": "webcomp_4d2e72bd-527c-454b-a8b9-472cbfe5e890"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "7239",
+            "backgroundImageSlug": "",
+            "name": "Providence Park",
+            "city": "Portland, Oregon"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            },
+            {
+                "broadcasterTypeLabel": "National TV",
+                "broadcasterName": "FOX",
+                "broadcasterStreamingURL": "",
+                "broadcasterType": "US TV"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-04-13T20:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "8",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2414974,
+        "slug": "lafcvsrbny-04-20-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 399,
+            "fullName": "New York Red Bulls",
+            "slug": "new-york-red-bulls",
+            "shortName": "New York",
+            "abbreviation": "RBNY",
+            "backgroundColor": "#BA0C2F",
+            "logoBWSlug": "webcomp_274350b9-e39e-493b-971a-0177265ce0dd",
+            "logoColorSlug": "webcomp_774a8c39-7348-4f4f-b92d-5dec8d4b5a21",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970744/assets/logos/399-ny-red-bulls-logo_o6xw9r.png",
+            "crestColorSlug": "webcomp_fe0dcb09-145c-430e-9b09-2d114db751d3"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-04-20T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "9",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2414990,
+        "slug": "lafcvspor-04-27-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 1581,
+            "fullName": "Portland Timbers",
+            "slug": "portland-timbers",
+            "shortName": "Portland",
+            "abbreviation": "POR",
+            "backgroundColor": "#004812",
+            "logoBWSlug": "webcomp_e8545a05-ee03-49db-a7eb-9e1318240244",
+            "logoColorSlug": "webcomp_91c9ad8e-91ee-4a8b-ba99-3d317006dcc7",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1626094359/assets/logos/POR-Logo-480px_xh4gvt.png",
+            "crestColorSlug": "webcomp_4d2e72bd-527c-454b-a8b9-472cbfe5e890"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-04-27T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "10",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415001,
+        "slug": "sjvslafc-05-04-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 1131,
+            "fullName": "San Jose Earthquakes",
+            "slug": "san-jose-earthquakes",
+            "shortName": "San Jose",
+            "abbreviation": "SJ",
+            "backgroundColor": "#0051BA",
+            "logoBWSlug": "webcomp_24d54b48-b5a6-43ba-8824-615f085973a9",
+            "logoColorSlug": "webcomp_45f398dc-e8fc-4254-b910-da3db401682e",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620997962/assets/logos/SJ-Logo-480px.png",
+            "crestColorSlug": "webcomp_53d88900-4e12-4596-a3e8-045e178182d5"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "10020",
+            "backgroundImageSlug": "",
+            "name": "Levi's Stadium",
+            "city": "Santa Clara, California"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-05-04T23:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "11",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415017,
+        "slug": "lafcvsvan-05-11-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 1708,
+            "fullName": "Vancouver Whitecaps FC",
+            "slug": "vancouver-whitecaps-fc",
+            "shortName": "Vancouver",
+            "abbreviation": "VAN",
+            "backgroundColor": "#002244",
+            "logoBWSlug": "webcomp_32b98038-9825-4376-9484-c46a4443394f",
+            "logoColorSlug": "webcomp_cb5dfcb6-1002-4510-b279-0c108d8401d9",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970751/assets/logos/1708-vancouver-logo_znac8n.png",
+            "crestColorSlug": "webcomp_47dd04e2-186b-4ef0-a2e7-b2e5050e265e"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-05-11T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "12",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415029,
+        "slug": "stlvslafc-05-15-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 17012,
+            "fullName": "St. Louis CITY SC",
+            "slug": "st-louis-city-sc",
+            "shortName": "St. Louis",
+            "abbreviation": "STL",
+            "backgroundColor": "#E80A4D",
+            "logoBWSlug": "webcomp_8ed163c5-b4ff-4dc8-ba3b-4552544c9087",
+            "logoColorSlug": "webcomp_545922e1-f6f4-4a0d-8302-5c7fbf6130b0",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1632227611/assets/logos/STL-Logo-800_fxwprk.png",
+            "crestColorSlug": "webcomp_69458b23-bf47-403b-9703-fca10fdc5e7e"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "16335",
+            "backgroundImageSlug": "",
+            "name": "CITYPARK",
+            "city": "St. Louis, MO"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-05-16T00:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "13",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415046,
+        "slug": "atlvslafc-05-25-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11091,
+            "fullName": "Atlanta United",
+            "slug": "atlanta-united",
+            "shortName": "Atlanta",
+            "abbreviation": "ATL",
+            "backgroundColor": "#9D2235",
+            "logoBWSlug": "webcomp_0b739f0a-d006-4f9a-8f4a-50da344c7682",
+            "logoColorSlug": "webcomp_3179d38a-a997-4c57-ae8a-68bac03335eb",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620997957/assets/logos/ATL-Logo-480px.png",
+            "crestColorSlug": "webcomp_1ceb0722-eaf6-45b3-945d-c07586c978dc"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "12492",
+            "backgroundImageSlug": "",
+            "name": "Mercedes-Benz Stadium",
+            "city": "Atlanta, GA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [],
+        "sponsorImage": {},
+        "matchDate": "2024-05-25T23:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "15",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415071,
+        "slug": "lafcvsmin-05-29-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 6977,
+            "fullName": "Minnesota United",
+            "slug": "minnesota-united-fc",
+            "shortName": "Minnesota",
+            "abbreviation": "MIN",
+            "backgroundColor": "#737B82",
+            "logoBWSlug": "webcomp_73d6b760-8b5f-44fb-9ed8-19435b008968",
+            "logoColorSlug": "webcomp_a1c50cc7-da2a-49d9-a255-474b2782fd6a",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970757/assets/logos/6977-minnesota-logo_tzjlhe.png",
+            "crestColorSlug": "webcomp_858d4cc5-5d2c-4d30-a173-50bac6381c30"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            },
+            {
+                "broadcasterTypeLabel": "National TV",
+                "broadcasterName": "FS1",
+                "broadcasterStreamingURL": "",
+                "broadcasterType": "US TV"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-05-29T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "16",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415083,
+        "slug": "lafcvsdal-06-01-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 1903,
+            "fullName": "FC Dallas",
+            "slug": "fc-dallas",
+            "shortName": "Dallas",
+            "abbreviation": "DAL",
+            "backgroundColor": "#C6093B",
+            "logoBWSlug": "webcomp_9b1db6aa-aa95-4901-b073-e32d8b96dcf6",
+            "logoColorSlug": "webcomp_952ed4bd-9e84-4856-bf34-aaf9a93cf7f0",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970753/assets/logos/1903-fc-dallas-logo_zf5uiy.png",
+            "crestColorSlug": "webcomp_dcf0913b-409a-4570-a7a0-cf786351a1cd"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-06-01T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "17",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415096,
+        "slug": "orlvslafc-06-15-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 6900,
+            "fullName": "Orlando City",
+            "slug": "orlando-city-sc",
+            "shortName": "Orlando",
+            "abbreviation": "ORL",
+            "backgroundColor": "#61259E",
+            "logoBWSlug": "webcomp_3e90d4f0-6195-43d7-9d77-da4c1d7e3f65",
+            "logoColorSlug": "webcomp_9499966a-5150-4e9e-9df8-e3254b265584",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970757/assets/logos/6900-orlando-logo_tfcjmq.png",
+            "crestColorSlug": "webcomp_93928d77-288d-4606-8c86-6920962f1e71"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "11698",
+            "backgroundImageSlug": "",
+            "name": "Exploria Stadium",
+            "city": "Orlando, Florida"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-06-15T23:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "19",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415110,
+        "slug": "atxvslafc-06-19-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 15296,
+            "fullName": "Austin FC",
+            "slug": "austin-fc",
+            "shortName": "Austin",
+            "abbreviation": "ATX",
+            "backgroundColor": "#0BAC44",
+            "logoBWSlug": "webcomp_9a2edba8-e187-4e39-a434-140896f1e9b5",
+            "logoColorSlug": "webcomp_9fe50f89-c55f-47c7-b405-09d803fa5227",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970762/assets/logos/15296-austin-logo_dcqfgn.png",
+            "crestColorSlug": "webcomp_83f263dd-a78f-41ae-92ee-e48f68c9b575"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "15488",
+            "backgroundImageSlug": "",
+            "name": "Q2 Stadium",
+            "city": "Austin, TX"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-06-20T00:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "20",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415129,
+        "slug": "lafcvssj-06-22-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 1131,
+            "fullName": "San Jose Earthquakes",
+            "slug": "san-jose-earthquakes",
+            "shortName": "San Jose",
+            "abbreviation": "SJ",
+            "backgroundColor": "#0051BA",
+            "logoBWSlug": "webcomp_24d54b48-b5a6-43ba-8824-615f085973a9",
+            "logoColorSlug": "webcomp_45f398dc-e8fc-4254-b910-da3db401682e",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620997962/assets/logos/SJ-Logo-480px.png",
+            "crestColorSlug": "webcomp_53d88900-4e12-4596-a3e8-045e178182d5"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-06-22T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "21",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415142,
+        "slug": "lafcvscol-06-29-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 436,
+            "fullName": "Colorado Rapids",
+            "slug": "colorado-rapids",
+            "shortName": "Colorado",
+            "abbreviation": "COL",
+            "backgroundColor": "#8A2432",
+            "logoBWSlug": "webcomp_b51660a4-4015-4a32-b1c5-f47c95c9ca66",
+            "logoColorSlug": "webcomp_c9a9244f-09e3-4e68-a741-3f88948a1c9c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970746/assets/logos/436-colorado-logo_yifx69.png",
+            "crestColorSlug": "webcomp_99232c2a-d3a1-47b6-bda1-10ec2a9cacfe"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-06-29T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "22",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415156,
+        "slug": "lavslafc-07-04-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 1230,
+            "fullName": "LA Galaxy",
+            "slug": "la-galaxy",
+            "shortName": "LA",
+            "abbreviation": "LA",
+            "backgroundColor": "#004B87",
+            "logoBWSlug": "webcomp_b18f064c-5843-4a56-9b8b-15246d317e2e",
+            "logoColorSlug": "webcomp_0dfebd51-1d40-46cb-b13c-39ae6cb16f54",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620997961/assets/logos/LA-Logo-480px.png",
+            "crestColorSlug": "webcomp_bbaa016d-ef06-4219-973b-a05158425761"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "2659",
+            "backgroundImageSlug": "",
+            "name": "Rose Bowl",
+            "city": "Pasadena"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-07-05T02:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "23",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415162,
+        "slug": "houvslafc-07-07-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 1897,
+            "fullName": "Houston Dynamo FC",
+            "slug": "houston-dynamo-fc",
+            "shortName": "Houston",
+            "abbreviation": "HOU",
+            "backgroundColor": "#101820",
+            "logoBWSlug": "webcomp_4fc9b640-d1cc-4e11-be0f-e2d2bae8c5ec",
+            "logoColorSlug": "webcomp_31d424ad-8390-4717-9fda-3c79847f1711",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970752/assets/logos/1897-houston-logo_mwdpxd.png",
+            "crestColorSlug": "webcomp_7c50c14c-f139-496b-a4a6-02597df1a415"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "7905",
+            "backgroundImageSlug": "",
+            "name": "Shell Energy Stadium",
+            "city": "Houston, Texas"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-07-08T00:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "24",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415182,
+        "slug": "lafcvsclb-07-13-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 454,
+            "fullName": "Columbus Crew",
+            "slug": "columbus-crew",
+            "shortName": "Columbus",
+            "abbreviation": "CLB",
+            "backgroundColor": "#757575",
+            "logoBWSlug": "webcomp_1817d3e8-428d-4250-b4f0-59c58760d46a",
+            "logoColorSlug": "webcomp_03c98b7e-976f-4a33-a626-995b89aa7e80",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1621373535/assets/logos/CLB-Logo-New-480.png",
+            "crestColorSlug": "webcomp_9c0c3eba-b78c-408c-af11-5587360ad173"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-07-13T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "25",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415195,
+        "slug": "lafcvsrsl-07-17-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 1899,
+            "fullName": "Real Salt Lake",
+            "slug": "real-salt-lake",
+            "shortName": "Salt Lake",
+            "abbreviation": "RSL",
+            "backgroundColor": "#001E61",
+            "logoBWSlug": "webcomp_35672ef3-a975-4e9d-a458-96270b5bfb6f",
+            "logoColorSlug": "webcomp_f7cbc2c6-6640-4562-b994-6559396e10af",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1625175977/assets/logos/RSL-Logo-480px_j5pblf.png",
+            "crestColorSlug": "webcomp_f7cbc2c6-6640-4562-b994-6559396e10af"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            },
+            {
+                "broadcasterTypeLabel": "National TV",
+                "broadcasterName": "FS1",
+                "broadcasterStreamingURL": "",
+                "broadcasterType": "US TV"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-07-17T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "26",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415211,
+        "slug": "seavslafc-07-20-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 3500,
+            "fullName": "Seattle Sounders FC",
+            "slug": "seattle-sounders-fc",
+            "shortName": "Seattle",
+            "abbreviation": "SEA",
+            "backgroundColor": "#2dc84d",
+            "logoBWSlug": "webcomp_d48039f4-62b6-445a-bcb7-fe2f76e003f2",
+            "logoColorSlug": "webcomp_a5251f90-8f18-4517-b3d3-5aa5f66696dc",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1702319240/assets/sea/logos/SEA2023-Full_Color-480x480_fk6mpu.png",
+            "crestColorSlug": "webcomp_54004f6d-5a0e-45ba-84b7-2333f6802125"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "7425",
+            "backgroundImageSlug": "",
+            "name": "Lumen Field",
+            "city": "Seattle, WA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-07-21T02:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "27",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415226,
+        "slug": "vanvslafc-08-24-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 1708,
+            "fullName": "Vancouver Whitecaps FC",
+            "slug": "vancouver-whitecaps-fc",
+            "shortName": "Vancouver",
+            "abbreviation": "VAN",
+            "backgroundColor": "#002244",
+            "logoBWSlug": "webcomp_32b98038-9825-4376-9484-c46a4443394f",
+            "logoColorSlug": "webcomp_cb5dfcb6-1002-4510-b279-0c108d8401d9",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970751/assets/logos/1708-vancouver-logo_znac8n.png",
+            "crestColorSlug": "webcomp_47dd04e2-186b-4ef0-a2e7-b2e5050e265e"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "7740",
+            "backgroundImageSlug": "",
+            "name": "BC Place",
+            "city": "Vancouver, BC"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-08-24T11:00:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": true,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "28",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415238,
+        "slug": "lafcvshou-08-31-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 1897,
+            "fullName": "Houston Dynamo FC",
+            "slug": "houston-dynamo-fc",
+            "shortName": "Houston",
+            "abbreviation": "HOU",
+            "backgroundColor": "#101820",
+            "logoBWSlug": "webcomp_4fc9b640-d1cc-4e11-be0f-e2d2bae8c5ec",
+            "logoColorSlug": "webcomp_31d424ad-8390-4717-9fda-3c79847f1711",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970752/assets/logos/1897-houston-logo_mwdpxd.png",
+            "crestColorSlug": "webcomp_7c50c14c-f139-496b-a4a6-02597df1a415"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-08-31T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "29",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415255,
+        "slug": "lavslafc-09-14-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 1230,
+            "fullName": "LA Galaxy",
+            "slug": "la-galaxy",
+            "shortName": "LA",
+            "abbreviation": "LA",
+            "backgroundColor": "#004B87",
+            "logoBWSlug": "webcomp_b18f064c-5843-4a56-9b8b-15246d317e2e",
+            "logoColorSlug": "webcomp_0dfebd51-1d40-46cb-b13c-39ae6cb16f54",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620997961/assets/logos/LA-Logo-480px.png",
+            "crestColorSlug": "webcomp_bbaa016d-ef06-4219-973b-a05158425761"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "3356",
+            "backgroundImageSlug": "",
+            "name": "Dignity Health Sports Park",
+            "city": "Carson, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-09-15T02:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "31",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415270,
+        "slug": "lafcvsatx-09-18-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 15296,
+            "fullName": "Austin FC",
+            "slug": "austin-fc",
+            "shortName": "Austin",
+            "abbreviation": "ATX",
+            "backgroundColor": "#0BAC44",
+            "logoBWSlug": "webcomp_9a2edba8-e187-4e39-a434-140896f1e9b5",
+            "logoColorSlug": "webcomp_9fe50f89-c55f-47c7-b405-09d803fa5227",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970762/assets/logos/15296-austin-logo_dcqfgn.png",
+            "crestColorSlug": "webcomp_83f263dd-a78f-41ae-92ee-e48f68c9b575"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            },
+            {
+                "broadcasterTypeLabel": "National TV",
+                "broadcasterName": "FS1",
+                "broadcasterStreamingURL": "",
+                "broadcasterType": "US TV"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-09-18T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "32",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415279,
+        "slug": "dalvslafc-09-21-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 1903,
+            "fullName": "FC Dallas",
+            "slug": "fc-dallas",
+            "shortName": "Dallas",
+            "abbreviation": "DAL",
+            "backgroundColor": "#C6093B",
+            "logoBWSlug": "webcomp_9b1db6aa-aa95-4901-b073-e32d8b96dcf6",
+            "logoColorSlug": "webcomp_952ed4bd-9e84-4856-bf34-aaf9a93cf7f0",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970753/assets/logos/1903-fc-dallas-logo_zf5uiy.png",
+            "crestColorSlug": "webcomp_dcf0913b-409a-4570-a7a0-cf786351a1cd"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "3202",
+            "backgroundImageSlug": "",
+            "name": "Toyota Stadium",
+            "city": "Frisco, Texas"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-09-22T00:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "33",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415287,
+        "slug": "cinvslafc-09-28-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11504,
+            "fullName": "FC Cincinnati",
+            "slug": "fc-cincinnati",
+            "shortName": "Cincinnati",
+            "abbreviation": "CIN",
+            "backgroundColor": "#003087",
+            "logoBWSlug": "webcomp_093edcd5-74d9-4da2-93f8-d464f7169dd4",
+            "logoColorSlug": "webcomp_553d2bce-a8cd-4cce-ada2-b6e07c74dc28",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620997960/assets/logos/CIN-Logo-480px.png",
+            "crestColorSlug": "webcomp_41e2f018-d1fe-482e-bd36-9d2a02da24a0"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "15489",
+            "backgroundImageSlug": "",
+            "name": "TQL Stadium",
+            "city": "Cincinnati, Ohio"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-09-28T23:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "34",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415311,
+        "slug": "lafcvsstl-10-02-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 17012,
+            "fullName": "St. Louis CITY SC",
+            "slug": "st-louis-city-sc",
+            "shortName": "St. Louis",
+            "abbreviation": "STL",
+            "backgroundColor": "#E80A4D",
+            "logoBWSlug": "webcomp_8ed163c5-b4ff-4dc8-ba3b-4552544c9087",
+            "logoColorSlug": "webcomp_545922e1-f6f4-4a0d-8302-5c7fbf6130b0",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1632227611/assets/logos/STL-Logo-800_fxwprk.png",
+            "crestColorSlug": "webcomp_69458b23-bf47-403b-9703-fca10fdc5e7e"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-10-02T19:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "35",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415322,
+        "slug": "skcvslafc-10-05-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 421,
+            "fullName": "Sporting Kansas City",
+            "slug": "sporting-kansas-city",
+            "shortName": "Kansas City",
+            "abbreviation": "SKC",
+            "backgroundColor": "#0C2340",
+            "logoBWSlug": "webcomp_3eee8541-16f1-4dfc-a366-b6b4d19e4a30",
+            "logoColorSlug": "webcomp_5227c7e9-ad7e-402d-a910-160052addcf4",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1614970745/assets/logos/421-sporting-kc-logo_pyhxo8.png",
+            "crestColorSlug": "webcomp_164c77dc-f6f3-47a3-bac4-002202ba0a11"
+        },
+        "away": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "venue": {
+            "venueOptaId": "7329",
+            "backgroundImageSlug": "",
+            "name": "Children's Mercy Park",
+            "city": "Kansas City, Kansas"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-10-06T00:30:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "36",
+        "delayedMatch": false
+    },
+    {
+        "optaId": 2415341,
+        "slug": "lafcvssj-10-19-2024",
+        "leagueMatchTitle": "",
+        "home": {
+            "optaId": 11690,
+            "fullName": "Los Angeles Football Club",
+            "slug": "los-angeles-football-club",
+            "shortName": "LAFC",
+            "abbreviation": "LAFC",
+            "backgroundColor": "#212121",
+            "logoBWSlug": "webcomp_1a2ee9e1-cac2-4f2b-b771-620376f002ee",
+            "logoColorSlug": "webcomp_6f982df3-b4a5-44f2-a950-a2a3148a914c",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620998598/assets/logos/LAFC-Logo-480px.png",
+            "crestColorSlug": "webcomp_d81f7b0b-8c59-49ce-8c59-ee5afe10aa03"
+        },
+        "away": {
+            "optaId": 1131,
+            "fullName": "San Jose Earthquakes",
+            "slug": "san-jose-earthquakes",
+            "shortName": "San Jose",
+            "abbreviation": "SJ",
+            "backgroundColor": "#0051BA",
+            "logoBWSlug": "webcomp_24d54b48-b5a6-43ba-8824-615f085973a9",
+            "logoColorSlug": "webcomp_45f398dc-e8fc-4254-b910-da3db401682e",
+            "logoColorUrl": "https://images.mlssoccer.com/image/upload/{formatInstructions}/v1620997962/assets/logos/SJ-Logo-480px.png",
+            "crestColorSlug": "webcomp_53d88900-4e12-4596-a3e8-045e178182d5"
+        },
+        "venue": {
+            "venueOptaId": "12919",
+            "backgroundImageSlug": "",
+            "name": "BMO Stadium",
+            "city": "Los Angeles, CA"
+        },
+        "season": {
+            "slug": "us-major-league-soccer-season-2024-2025",
+            "optaId": 2024,
+            "competitionId": 98,
+            "name": "Season 2024/2025"
+        },
+        "competition": {
+            "optaId": 98,
+            "name": "MLS Regular Season",
+            "slug": "mls-regular-season",
+            "shortName": "Regular Season",
+            "matchType": "Regular",
+            "logoLight": {
+                "slug": ""
+            },
+            "logoDark": {
+                "slug": ""
+            },
+            "blockHeaderName": "",
+            "mgmId": ""
+        },
+        "broadcasters": [
+            {
+                "broadcasterTypeLabel": "",
+                "broadcasterName": "Apple TV - MLS Season Pass",
+                "broadcasterStreamingURL": "https://tv.apple.com/channel/tvs.sbd.7000",
+                "broadcasterType": "International Streaming"
+            }
+        ],
+        "sponsorImage": {},
+        "matchDate": "2024-10-19T18:00:00.0000000Z",
+        "tags": [],
+        "homeClubBroadcasters": [],
+        "awayClubBroadcasters": [],
+        "clubBroadcasters": [],
+        "isTimeTbd": false,
+        "mgmId": "",
+        "appleStreamURL": "",
+        "appleSubscriptionTier": "",
+        "appleAdvertisementCategory": "",
+        "roundName": "",
+        "roundNumber": 1,
+        "roundGroup": "",
+        "matchDay": "37",
+        "delayedMatch": false
+    }
+]

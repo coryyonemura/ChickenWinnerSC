@@ -2,8 +2,12 @@ import discord
 from discord.ext import commands, tasks
 from datetime import datetime
 import pytz
-from scheduleUpdater import return_first_game, get_next_gametime, update_schedule
+from ducksScheduleUpdater import return_first_game, update_schedule
 from hockeyRequests import get_score
+
+#live scores from sofascores.com
+#lafc schedule from lafc.com
+#ducks schedule from ?
 
 TOKEN = "TOKEN"
 PREFIX = '!'
@@ -17,39 +21,73 @@ bot = commands.Bot(command_prefix=PREFIX, intents=intents)
 async def on_ready():
     print(f'{bot.user.name} has logged on')
     global seconds_until_game
-    seconds_until_game = get_seconds(get_next_gametime("ducksScheduleUpdated.json"))
+    seconds_until_game = [get_seconds(return_first_game('jsonFiles/ducksScheduleUpdated.json'),return_first_game('jsonFiles/lafcGamesUpdated.json'))]
     countdown_to_next_game.start()
-    
+    # count_goals.start()
 
 @bot.command(name="nextGame")
 async def nextGame(ctx):
-    game = return_first_game("ducksScheduleUpdated.json")
-    dateGame = game['dateET']
-    time = int(dateGame[11:13]) - 3
-    date = dateGame[0:10]+" "+str(time)+dateGame[13:]
+    hockey_game = return_first_game("jsonFiles/ducksScheduleUpdated.json")
+    soccer_game = return_first_game('jsonFiles/lafcGamesUpdated.json')
 
-    datetime_obj = datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
+    game = get_closest_game(hockey_game, soccer_game)
+
+    datetime_obj = datetime.strptime(game['date'], "%Y-%m-%d %H:%M:%S")
     written_date = datetime_obj.strftime('%B %d, %Y at %I:%M%p')
 
-    await ctx.send(f'the next eligible game is an NHL game. '
-                   f'the Anaheim Ducks are playing against the {game["awayEventResult"]["competitor"]["name"]}'
+    opponent = game['opponent']
+    if game == hockey_game:
+        await ctx.send(f'the next eligible game is a hockey game. '
+                   f'the Anaheim Ducks are playing against the {opponent}'
                    f' on {written_date} PT')
+    else:
+        await ctx.send(f'the next eligible game is a soccer game. '
+                       f'LAFC are playing against the {opponent} '
+                       f' on {written_date} PT')
 
-def get_seconds(game_time):
-    # Convert the date string to a datetime object
-    target_date = datetime.strptime(game_time, "%Y-%m-%d %H:%M:%S")
+def get_seconds(hockey, soccer):
+    hockey_date = datetime.strptime(hockey['date'], "%Y-%m-%d %H:%M:%S")
+    soccer_date = datetime.strptime(soccer['date'], "%Y-%m-%d %H:%M:%S")
 
-    # Set the time zone to Eastern Time
-    et_timezone = pytz.timezone('US/Eastern')
+    pt_timezone = pytz.timezone('US/Pacific')
 
-    # Get the current time in Eastern Time (aware of the timezone)
-    current_time_et = datetime.now(et_timezone)
-    target_date = et_timezone.localize(target_date)
+    # Get the current time in Pacific Time (aware of the timezone)
+    current_time_pt = datetime.now(pt_timezone)
+    hockey_date = pt_timezone.localize(hockey_date)
+    soccer_date = pt_timezone.localize(soccer_date)
 
-    # Calculate the time difference
-    time_difference = target_date-current_time_et
+    time_diff_hockey = int((hockey_date-current_time_pt).total_seconds())
+    time_diff_soccer = int((soccer_date-current_time_pt).total_seconds())
+    if time_diff_hockey <= time_diff_soccer:
+        return time_diff_hockey
+    else:
+        return time_diff_soccer
 
-    return [int(time_difference.total_seconds())]
+def get_closest_game(hockey, soccer):
+    hockey_date = datetime.strptime(hockey['date'], "%Y-%m-%d %H:%M:%S")
+    soccer_date = datetime.strptime(soccer['date'], "%Y-%m-%d %H:%M:%S")
+
+    pt_timezone = pytz.timezone('US/Pacific')
+
+    # Get the current time in Pacific Time (aware of the timezone)
+    current_time_pt = datetime.now(pt_timezone)
+    hockey_date = pt_timezone.localize(hockey_date)
+    soccer_date = pt_timezone.localize(soccer_date)
+
+    time_diff_hockey = int((hockey_date-current_time_pt).total_seconds())
+    time_diff_soccer = int((soccer_date-current_time_pt).total_seconds())
+    if time_diff_hockey <= time_diff_soccer:
+        return hockey
+    else:
+        return soccer
+
+# def get_thirty_min():
+#     pt_timezone = pytz.timezone('US/Pacific')
+#
+#     # Get the current time in Pacific Time (aware of the timezone)
+#     current_time_pt = datetime.now(pt_timezone)
+#     return int(current_time_pt).total_seconds()+1800
+
         
 @tasks.loop(seconds=60)
 async def countdown_to_next_game():
@@ -63,26 +101,28 @@ async def countdown_to_next_game():
             await channel.send(f'the game has started! support your local team and potentially win free chicken!')
 
         # call a new task function that calls the data from the live data and checks for goals scored
-        check_goals.start()
+        count_goals.start()
         #update the json file
-        update_schedule("ducksScheduleUpdated.json")
+        update_schedule("jsonFiles/ducksScheduleUpdated.json")
 
-        seconds_until_game = get_seconds(get_next_gametime("ducksScheduleUpdated.json"))
+        seconds_until_game = [get_seconds(get_seconds(return_first_game('jsonFiles/ducksScheduleUpdated.json'),return_first_game('jsonFiles/lafcGamesUpdated.json') ))]
 
     else:
         seconds_until_game[0] -= 60
 #
 @tasks.loop(seconds=60)
-async def check_goals():
+async def count_goals():
+    print('hello')
     score = get_score()
     if score == -1:
-        check_goals.stop()
+        count_goals.stop()
     else:
         if score >= 5:
             channel_id = 1187128458774585396
             channel = bot.get_channel(channel_id)
-            await channel.send(f'the Anaheim Ducks have scored 5 goals! Claim your free chicken on the cfa app before midnight!')
-            check_goals.stop()
-
+            await channel.send(f'@everyone the Anaheim Ducks have scored 5 goals! '
+                               f'Claim your free chicken on the cfa app before midnight! '
+                               f'(rewards may take up to 30 minutes from this announcement to show up on the cfa app)')
+            count_goals.stop()
 
 bot.run(TOKEN)
