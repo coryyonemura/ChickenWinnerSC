@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 
 
-def get_entire_schedule(file_path_from, file_path_to):
+def get_entire_ducks_schedule(file_path_from, file_path_to):
     with open(file_path_from) as file:
         json_data = json.load(file)
 
@@ -18,6 +18,26 @@ def get_entire_schedule(file_path_from, file_path_to):
             g = {}
             g['date'] = str(game_date)
             g['opponent'] = game['awayEventResult']['competitor']['name']
+            home_game_data.append(g)
+
+    with open(file_path_to, 'w') as json_file:
+        json.dump(home_game_data, json_file,indent=2)
+
+def get_entire_lafc_schedule(file_path_from, file_path_to):
+    with open(file_path_from) as file:
+        json_data = json.load(file)
+
+    home_game_data = []
+
+    for game in json_data:
+        date = game['matchDate']
+        current_date = datetime.now()
+        game_date = datetime(int(date[0:4]), int(date[5:7]), int(date[8:10]), int(date[11:13]), int(date[14:16]),0)
+        if game['home']['shortName'] == 'LAFC' and current_date < game_date:
+            # home_game_data.append(str(game_date))
+            g = {}
+            g['date'] = str(game_date)
+            g['opponent'] = game['away']['fullName']
             home_game_data.append(g)
 
     with open(file_path_to, 'w') as json_file:
@@ -42,6 +62,6 @@ def return_first_game(file_path):
 
 
 
-get_entire_schedule('jsonFiles/allDucksGames.json', 'jsonFiles/ducksScheduleUpdated.json')
-# update_schedule("ducksScheduleUpdated.json")
+# get_ducks_entire_schedule('jsonFiles/allDucksGames.json', 'jsonFiles/ducksScheduleUpdated.json')
+# get_entire_lafc_schedule('jsonFiles/allLafcGames.json', 'jsonFiles/lafcGamesUpdated.json')
 
