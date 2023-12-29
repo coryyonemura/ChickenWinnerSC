@@ -2,14 +2,17 @@ import discord
 from discord.ext import commands, tasks
 from scheduleUpdaters import return_first_game, update_schedule
 from hockeyRequests import get_score
-from botHelpers import get_seconds, next_game_info
+from botHelpers import get_seconds, next_game_info, get_sport
+from soccerRequests import lafc_game, lafc_game_over
 
 #live scores from sofascores.com
 #lafc schedule from lafc.com
 #ducks schedule from ?
 
-TOKEN = "MTE2NTg0MDUyMDA2NTU4NTI1Mw.GIWboH.YE-RlcxO0bQsY48Vj50JvYx6mTt-DCDOvXEYxE"
+SECONDS_PER_MINUTE = 60
+TOKEN = "TOKEN"
 PREFIX = '!'
+
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -20,15 +23,15 @@ bot = commands.Bot(command_prefix=PREFIX, intents=intents)
 async def on_ready():
     print(f'{bot.user.name} has logged on')
     global seconds_until_game
-    seconds_until_game = [get_seconds(return_first_game('jsonFiles/ducksScheduleUpdated.json'),return_first_game('jsonFiles/lafcGamesUpdated.json'))]
+    lafcWin = False
+    seconds_until_game = [get_seconds(return_first_game('jsonFiles/ducksGamesUpdated.json'), return_first_game('jsonFiles/lafcGamesUpdated.json'))]
     countdown_to_next_game.start()
-    # count_goals.start()
 
 @bot.command(name="nextGame")
 async def nextGame(ctx):
     await ctx.send(next_game_info())
         
-@tasks.loop(seconds=60)
+@tasks.loop(seconds=SECONDS_PER_MINUTE)
 async def countdown_to_next_game():
     global seconds_until_game
     print(seconds_until_game[0])
@@ -37,24 +40,28 @@ async def countdown_to_next_game():
         channel = bot.get_channel(channel_id)
 
         if channel:
-            await channel.send(f'the game has started! support your local team and potentially win free chicken!')
+            sport = get_sport("jsonFiles/ducksGamesUpdated.json", 'jsonFiles/lafcGamesUpdated.json')
 
-        # call a new task function that calls the data from the live data and checks for goals scored
-        count_goals.start()
-        #update the json file
-        update_schedule("jsonFiles/ducksScheduleUpdated.json")
-
-        seconds_until_game = [get_seconds(get_seconds(return_first_game('jsonFiles/ducksScheduleUpdated.json'),return_first_game('jsonFiles/lafcGamesUpdated.json') ))]
+            if sport == "hockey":
+                await channel.send(f'the Anaheim Ducks game has started! support your local team and potentially win free chicken!')
+                ducks_goals.start()
+                # update the json file
+                update_schedule("jsonFiles/ducksGamesUpdated.json")
+            elif sport == "soccer":
+                await channel.send(f'the LAFC game has started! support your local team and potentially win free chicken!')
+                lafc_win.start()
+                update_schedule("jsonFiles/lafcGamesUpdated.json")
+        seconds_until_game = [get_seconds(return_first_game('jsonFiles/ducksGamesUpdated.json'), return_first_game('jsonFiles/lafcGamesUpdated.json'))]
 
     else:
-        seconds_until_game[0] -= 60
+        seconds_until_game[0] -= SECONDS_PER_MINUTE
 #
-@tasks.loop(seconds=60)
-async def count_goals():
+@tasks.loop(seconds=SECONDS_PER_MINUTE)
+async def ducks_goals():
     print('hello')
     score = get_score()
     if score == -1:
-        count_goals.stop()
+        ducks_goals.stop()
     else:
         if score >= 5:
             channel_id = 1187128458774585396
@@ -62,6 +69,21 @@ async def count_goals():
             await channel.send(f'@everyone the Anaheim Ducks have scored 5 goals! '
                                f'Claim your free chicken on the cfa app before midnight! '
                                f'(rewards may take up to 30 minutes from this announcement to show up on the cfa app)')
-            count_goals.stop()
+            ducks_goals.stop()
+
+@tasks.loop(seconds=SECONDS_PER_MINUTE)
+async def lafc_win():
+    global lafcWin
+    if lafc_game_over():
+        if lafcWin:
+            channel_id = 1187128458774585396
+            channel = bot.get_channel(channel_id)
+            await channel.send(f'@everyone LAFC has won at home! '
+                               f'Claim your free chicken on the cfa app before midnight! '
+                               f'(rewards may take up to 30 minutes from this announcement to show up on the cfa app)')
+        lafc_win.stop()
+    else:
+        lafcWin = lafc_game()
+
 
 bot.run(TOKEN)

@@ -62,6 +62,6 @@ def return_first_game(file_path):
 
 
 
-# get_ducks_entire_schedule('jsonFiles/allDucksGames.json', 'jsonFiles/ducksScheduleUpdated.json')
+# get_ducks_entire_schedule('jsonFiles/allDucksGames.json', 'jsonFiles/ducksGamesUpdated.json')
 # get_entire_lafc_schedule('jsonFiles/allLafcGames.json', 'jsonFiles/lafcGamesUpdated.json')
 
