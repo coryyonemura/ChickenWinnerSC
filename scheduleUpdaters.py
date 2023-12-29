@@ -12,7 +12,7 @@ def get_entire_ducks_schedule(file_path_from, file_path_to):
     for game in json_data['events']:
         date = game['dateET']
         current_date = datetime.now()
-        game_date = datetime(int(date[0:4]), int(date[5:7]), int(date[8:10]), int(date[11:13])-3, 0,0)
+        game_date = datetime(int(date[0:4]), int(date[5:7]), int(date[8:10]), int(date[11:13])-3, int(date[14:16]),0)
         if game['homeEventResult']['competitor']['name'] == 'Anaheim Ducks' and current_date < game_date:
             # home_game_data.append(game)
             g = {}
@@ -62,6 +62,6 @@ def return_first_game(file_path):
 
 
 
-# get_ducks_entire_schedule('jsonFiles/allDucksGames.json', 'jsonFiles/ducksGamesUpdated.json')
+get_entire_ducks_schedule('jsonFiles/allDucksGames.json', 'jsonFiles/ducksGamesUpdated.json')
 # get_entire_lafc_schedule('jsonFiles/allLafcGames.json', 'jsonFiles/lafcGamesUpdated.json')
 

@@ -1,0 +1,102 @@
+[
+  {
+    "date": "2023-12-29 19:30:00",
+    "opponent": "Memphis Grizzlies"
+  },
+  {
+    "date": "2023-01-01 19:30:00",
+    "opponent": "Miami Heat"
+  },
+  {
+    "date": "2023-01-08 19:30:00",
+    "opponent": "Phoenix Suns"
+  },
+  {
+    "date": "2023-01-10 19:30:00",
+    "opponent": "Toronto Raptors"
+  },
+  {
+    "date": "2023-01-16 19:00:00",
+    "opponent": "Oklahoma City Thunder"
+  },
+  {
+    "date": "2023-01-21 12:30:00",
+    "opponent": "Brooklyn Nets"
+  },
+  {
+    "date": "2023-01-23 19:00:00",
+    "opponent": "Los Angeles Lakers"
+  },
+  {
+    "date": "2023-02-07 19:00:00",
+    "opponent": "New Orleans Pelicans"
+  },
+  {
+    "date": "2023-02-10 12:30:00",
+    "opponent": "Detroit Pistons"
+  },
+  {
+    "date": "2023-02-12 19:30:00",
+    "opponent": "Minnesota Timberwolves"
+  },
+  {
+    "date": "2023-02-25 18:30:00",
+    "opponent": "Sacramento Kings"
+  },
+  {
+    "date": "2023-02-28 19:00:00",
+    "opponent": "Las Angeles Lakers"
+  },
+  {
+    "date": "2023-03-01 19:30:00",
+    "opponent": "Washington Wizards"
+  },
+  {
+    "date": "2023-03-09 13:00:00",
+    "opponent": "Chicago Bulls"
+  },
+  {
+    "date": "2023-03-10 12:00:00",
+    "opponent": "Milwaukee Bucks"
+  },
+  {
+    "date": "2023-03-12 19:00:00",
+    "opponent": "Minnesota Timberwolves"
+  },
+  {
+    "date": "2023-03-17 18:30:00",
+    "opponent": "Atlanta Hawks"
+  },
+  {
+    "date": "2023-03-24 12:30:00",
+    "opponent": "Philadelphia 76ers"
+  },
+  {
+    "date": "2023-03-25 19:30:00",
+    "opponent": "Indiana Pacers"
+  },
+  {
+    "date": "2023-04-04 19:00:00",
+    "opponent": "Denver Nuggets"
+  },
+  {
+    "date": "2023-04-05 19:30:00",
+    "opponent": "Utah Jazz"
+  },
+  {
+    "date": "2023-04-07 12:30:00",
+    "opponent": "Clevland Cavaliers"
+  },
+  {
+    "date": "2023-04-10 19:30:00",
+    "opponent": "Phoenix Suns"
+  },
+  {
+    "date": "2023-04-12 19:30:00",
+    "opponent": "Utah Jazz"
+  },
+  {
+    "date": "2023-04-14 12:30:00",
+    "opponent": "Houston Rockets"
+  }
+]
