@@ -62,6 +62,7 @@ def time_conversions(hockey_file, soccer_file, basketball_file):
     time_diff_hockey = int((hockey_date - current_time_pt).total_seconds())
     time_diff_soccer = int((soccer_date - current_time_pt).total_seconds())
     time_diff_basketball = int((basketball_date - current_time_pt).total_seconds())
+    # print(time_diff_hockey, time_diff_soccer, time_diff_basketball)
 
     return [time_diff_hockey, time_diff_soccer, time_diff_basketball]
 

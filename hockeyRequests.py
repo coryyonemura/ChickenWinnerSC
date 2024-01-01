@@ -1,6 +1,5 @@
 import requests
 import json
-import os
 
 url = "https://api.sofascore.com/api/v1/sport/ice-hockey/events/live"
 
@@ -48,4 +47,4 @@ def get_score():
 
 
 
-print(get_score())
+# print(get_score())

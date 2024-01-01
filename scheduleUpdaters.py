@@ -60,8 +60,41 @@ def return_first_game(file_path):
 
     return json_data[0]
 
+#gets all clippers home games from all nba games
+# def get_entire_clippers_schedule(file_path_from, file_path_to):
+#     with open(file_path_from) as file:
+#         json_data = json.load(file)
+#
+#     all_clippers_games = []
+#     for day in json_data['leagueSchedule']['gameDates']:
+#         for game in day['games']:
+#             if game['homeTeam']['teamName'] == 'Clippers':
+#                 all_clippers_games.append(game)
+#
+#
+#     with open(file_path_to, 'w') as file:
+#         json.dump(all_clippers_games, file, indent=2)
+
+def get_entire_clippers_schedule(file_path_from, file_path_to):
+    with open(file_path_from) as file:
+        json_data = json.load(file)
+
+    data = []
+    for game in json_data:
+        date = game['homeTeamTime']
+        current_date = datetime.now()
+        game_date = datetime(int(date[0:4]), int(date[5:7]), int(date[8:10]), int(date[11:13]),int(date[14:16]), 0)
+        if current_date < game_date:
+            dic = {}
+            dic['date'] = game['homeTeamTime'][0:10]+" "+game['homeTeamTime'][11:19]
+            dic['opponent'] = game['awayTeam']['teamCity']+" "+game['awayTeam']['teamName']
+            dic['gameId'] = game['gameId']
+            data.append(dic)
 
 
-get_entire_ducks_schedule('jsonFiles/allDucksGames.json', 'jsonFiles/ducksGamesUpdated.json')
+    with open(file_path_to, 'w') as file:
+        json.dump(data, file, indent=2)
+
+# get_entire_ducks_schedule('jsonFiles/allDucksGames.json', 'jsonFiles/ducksGamesUpdated.json')
 # get_entire_lafc_schedule('jsonFiles/allLafcGames.json', 'jsonFiles/lafcGamesUpdated.json')
-
+# get_entire_clippers_schedule('jsonFiles/allClippersGames.json', 'jsonFiles/clippersGamesUpdated.json')

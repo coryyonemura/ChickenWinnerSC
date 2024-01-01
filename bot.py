@@ -4,10 +4,11 @@ from scheduleUpdaters import return_first_game, update_schedule
 from hockeyRequests import get_score
 from botHelpers import get_seconds, next_game_info, get_sport
 from soccerRequests import lafc_game, lafc_game_over
+from basketballRequests import missed_freethrows, clippers_game_over, clippers_test
 
 #live scores from sofascores.com
 #lafc schedule from lafc.com
-#clippers schedule from ?
+#clippers schedule from nba.com
 #angels schedule from ?
 #ducks schedule from ?
 
@@ -26,6 +27,7 @@ async def on_ready():
     print(f'{bot.user.name} has logged on')
     seconds_until_game = [get_seconds('jsonFiles/ducksGamesUpdated.json','jsonFiles/lafcGamesUpdated.json', 'jsonFiles/clippersGamesUpdated.json')]
     countdown_to_next_game.start(seconds_until_game)
+
 
 @bot.command(name="nextGame")
 async def nextGame(ctx):
@@ -52,7 +54,7 @@ async def countdown_to_next_game(seconds_until_game):
                 update_schedule("jsonFiles/lafcGamesUpdated.json")
             elif sport == "basketball":
                 await channel.send(f'the LA Clippers game has started! support your local team and potentially win free chicken!')
-                # clipper_ft()
+                clippers_freethrows.start()
                 update_schedule("jsonFiles/clippersGamesUpdated.json")
 
         seconds_until_game[0] = get_seconds('jsonFiles/ducksGamesUpdated.json','jsonFiles/lafcGamesUpdated.json', 'jsonFiles/clippersGamesUpdated.json')
@@ -85,6 +87,22 @@ async def lafc_win(winner):
         lafc_win.stop()
     else:
         winner = lafc_game()
+
+@tasks.loop(seconds=SECONDS_PER_MINUTE)
+async def clippers_freethrows():
+    gameId = return_first_game('jsonFiles/clippersGamesUpdated.json')['gameId']
+    if clippers_game_over(gameId) == False:
+        if missed_freethrows():
+            channel_id = 1187128458774585396
+            channel = bot.get_channel(channel_id)
+            await channel.send(f'@everyone the Clippers opponent have missed two free throws in a row! '
+                               f'Claim your free chicken on the cfa app before midnight!'
+                               f'(rewards may take up to 30 minutes from this announcement to show up on the cfa app)')
+            clippers_freethrows.stop()
+    else:
+        return clippers_freethrows.stop()
+
+
 
 
 bot.run(TOKEN)
