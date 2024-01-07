@@ -25,7 +25,7 @@ headers = {
 
 def missed_freethrows():
     try:
-        with open('jsonFiles/liveBasketballData.json') as f:
+        with open('../jsonFiles/jsonClippers/liveBasketballData.json') as f:
             jsondata = json.load(f)
 
         actions = jsondata['game']['actions']
@@ -46,10 +46,10 @@ def clippers_game_over(gameId):
 
         json_data = json.loads(data)
 
-        with open('jsonFiles/liveBasketballData.json', 'w') as json_file:
+        with open('../jsonFiles/jsonClippers/liveBasketballData.json', 'w') as json_file:
             json.dump(json_data, json_file, indent = 2)
 
-        with open('jsonFiles/liveBasketballData.json') as f:
+        with open('../jsonFiles/jsonClippers/liveBasketballData.json') as f:
             jsondata = json.load(f)
 
         actions = jsondata['game']['actions']
@@ -59,7 +59,7 @@ def clippers_game_over(gameId):
         RuntimeError("could not retrieve data")
 
 def clippers_test():
-    with open('jsonFiles/liveBasketballData.json') as f:
+    with open('../jsonFiles/jsonClippers/liveBasketballData.json') as f:
         jsondata = json.load(f)
 
     actions = jsondata['game']['actions']

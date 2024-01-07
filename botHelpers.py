@@ -25,11 +25,13 @@ def get_sport(hockey_file, soccer_file, basketball_file):
         return "basketball"
 
 def next_game_info():
-    hockey_game = return_first_game("jsonFiles/ducksGamesUpdated.json")
-    soccer_game = return_first_game('jsonFiles/lafcGamesUpdated.json')
-    basketball_game = return_first_game('jsonFiles/clippersGamesUpdated.json')
+    hockey_game = return_first_game("jsonFiles/jsonDucks/ducksGamesUpdated.json")
+    soccer_game = return_first_game('jsonFiles/jsonLAFC/lafcGamesUpdated.json')
+    basketball_game = return_first_game('jsonFiles/jsonClippers/clippersGamesUpdated.json')
 
-    game = get_closest_game("jsonFiles/ducksGamesUpdated.json", 'jsonFiles/lafcGamesUpdated.json','jsonFiles/clippersGamesUpdated.json')
+    game = get_closest_game("jsonFiles/jsonDucks/ducksGamesUpdated.json",
+                            'jsonFiles/jsonLAFC/lafcGamesUpdated.json',
+                            'jsonFiles/jsonClippers/clippersGamesUpdated.json')
 
     datetime_obj = datetime.strptime(game['date'], "%Y-%m-%d %H:%M:%S")
     written_date = datetime_obj.strftime('%B %d, %Y at %I:%M%p')
