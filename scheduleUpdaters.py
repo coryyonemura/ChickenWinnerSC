@@ -95,6 +95,6 @@ def get_entire_clippers_schedule(file_path_from, file_path_to):
     with open(file_path_to, 'w') as file:
         json.dump(data, file, indent=2)
 
-# get_entire_ducks_schedule('jsonFiles/allDucksGames.json', 'jsonFiles/ducksGamesUpdated.json')
-# get_entire_lafc_schedule('jsonFiles/allLafcGames.json', 'jsonFiles/lafcGamesUpdated.json')
-# get_entire_clippers_schedule('jsonFiles/allClippersGames.json', 'jsonFiles/clippersGamesUpdated.json')
+get_entire_ducks_schedule('jsonFiles/jsonDucks/allDucksGames.json', 'jsonFiles/jsonDucks/ducksGamesUpdated.json')
+get_entire_lafc_schedule('jsonFiles/jsonLAFC/allLafcGames.json', 'jsonFiles/jsonLAFC/lafcGamesUpdated.json')
+get_entire_clippers_schedule('jsonFiles/jsonClippers/allClippersGames.json', 'jsonFiles/jsonClippers/clippersGamesUpdated.json')

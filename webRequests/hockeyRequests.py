@@ -28,10 +28,10 @@ def get_score():
 
         json_data = json.loads(data)
 
-        with open('../jsonFiles/jsonDucks/liveHockeyData.json', 'w') as json_file:
+        with open('jsonFiles/jsonDucks/liveHockeyData.json', 'w') as json_file:
             json.dump(json_data, json_file, indent = 2)
 
-        with open('../jsonFiles/jsonDucks/liveHockeyData.json') as f:
+        with open('jsonFiles/jsonDucks/liveHockeyData.json') as f:
             jsondata = json.load(f)
         # print('works')
 

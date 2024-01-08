@@ -25,15 +25,15 @@ headers = {
 
 def missed_freethrows():
     try:
-        with open('../jsonFiles/jsonClippers/liveBasketballData.json') as f:
+        with open('jsonFiles/jsonClippers/liveBasketballData.json') as f:
             jsondata = json.load(f)
 
         actions = jsondata['game']['actions']
         for actionNum in range(len(actions)):
             action = actions[actionNum]
             if action['period'] == 4 and action['actionType'] == 'freethrow' and action['teamTricode'] != "LAC" and action['subType'] == "1 of 2" and action['shotResult'] == 'Miss' and actionNum != len(actions)-1:
-                actionNumPlus = actions[actionNum+1]
-                if actionNumPlus['shotResult'] == 'Miss':
+                actionNumPlus = actions[actionNum+2]
+                if actionNumPlus['shotResult'] == 'Missed':
                     return True
         return False
     except:
@@ -46,10 +46,10 @@ def clippers_game_over(gameId):
 
         json_data = json.loads(data)
 
-        with open('../jsonFiles/jsonClippers/liveBasketballData.json', 'w') as json_file:
+        with open('jsonFiles/jsonClippers/liveBasketballData.json', 'w') as json_file:
             json.dump(json_data, json_file, indent = 2)
 
-        with open('../jsonFiles/jsonClippers/liveBasketballData.json') as f:
+        with open('jsonFiles/jsonClippers/liveBasketballData.json') as f:
             jsondata = json.load(f)
 
         actions = jsondata['game']['actions']
@@ -58,10 +58,29 @@ def clippers_game_over(gameId):
     except:
         RuntimeError("could not retrieve data")
 
-def clippers_test():
-    with open('../jsonFiles/jsonClippers/liveBasketballData.json') as f:
-        jsondata = json.load(f)
+def game_over(gameId):
+    try:
+        response = requests.request("GET", url+gameId+".json", data=payload, headers=headers)
+        data = response.text
 
-    actions = jsondata['game']['actions']
+        json_data = json.loads(data)
 
-    return actions[len(actions) - 1]['description'] == 'Game End'
+        with open('jsonFiles/jsonClippers/liveBasketballData.json', 'w') as json_file:
+            json.dump(json_data, json_file, indent = 2)
+
+        with open('jsonFiles/jsonClippers/liveBasketballData.json') as f:
+            jsondata = json.load(f)
+
+        actions = jsondata['game']['actions']
+
+        return actions[len(actions)-1] == 'Game End'
+    except:
+        RuntimeError("could not retrieve data")
+
+# def clippers_test():
+#     with open('jsonFiles/jsonClippers/liveBasketballData.json') as f:
+#         jsondata = json.load(f)
+#
+#     actions = jsondata['game']['actions']
+#
+#     return actions[len(actions) - 1]['description'] == 'Game End'
