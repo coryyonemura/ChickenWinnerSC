@@ -27,21 +27,23 @@ def lafc_game_over():
         data = response.text
 
         json_data = json.loads(data)
-        with open("jsonFiles/jsonLAFC/liveSoccerData.json", 'w') as json_file:
+        with open("jsonFiles/jsonLAFC/tempLiveData.json", 'w') as json_file:
             json.dump(json_data, json_file, indent = 2)
 
-        with open('jsonFiles/jsonLAFC/liveSoccerData.json') as f:
+        with open('jsonFiles/jsonLAFC/tempLiveData.json') as f:
             jsondata = json.load(f)
 
         for game in jsondata["events"]:
             if game['homeTeam']['name'] == "LAFC":
+                with open("jsonFiles/jsonLAFC/liveSoccerData.json", 'w') as json_file:
+                    json.dump(json_data, json_file, indent = 2)
                 return False
         return True
 
     except:
         RuntimeError("could not retrieve data")
 
-def lafc_game():
+def lafc_winner():
     with open('jsonFiles/jsonLAFC/liveSoccerData.json') as f:
         jsondata = json.load(f)
 
