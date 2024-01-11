@@ -67,7 +67,7 @@ async def countdown_to_next_game(seconds_until_game):
         elif sport == "soccer":
             await send_both(TEST_CHANNEL, CHICKENWIN_CHANNEL,
                             'The LAFC game has started! Support your local team and potentially win free chicken!')
-            lafc_win.start(False)
+            lafc_win.start()
             update_schedule("jsonFiles/jsonLAFC/lafcGamesUpdated.json")
         elif sport == "basketball":
             await send_both(TEST_CHANNEL, CHICKENWIN_CHANNEL,
@@ -123,6 +123,17 @@ async def clippers_freethrows():
     else:
         clippers_freethrows.stop()
 
+@tasks.loop(seconds = SECONDS_PER_MINUTE)
+async def angels_runs():
+    if not angels_game_over():
+        runs = get_runs()
+        if runs >= 7:
+            message = condition("Angels", "scored 7 runs")
+            await send_message(ARCHIVES_CHANNEL, f'**{get_date()}** - 🚨⚾ The Los Angeles Angels scored 7 or more runs in a game! ⚾🏆 #freechicken')
+            await send_both(TEST_CHANNEL, CHICKENWIN_CHANNEL, message)
+            angels_runs.stop()
+    else:
+        angels_runs.stop()
 async def send_message(channel_id, message):
     channel = bot.get_channel(channel_id)
     await channel.send(message)
