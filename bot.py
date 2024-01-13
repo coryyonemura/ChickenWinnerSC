@@ -5,6 +5,7 @@ from webRequests.hockeyRequests import get_score
 from botHelpers import get_seconds, next_game_info, get_sport, condition, get_date
 from webRequests.soccerRequests import lafc_winner, lafc_game_over
 from webRequests.basketballRequests import missed_freethrows, clippers_game_over
+from webRequests.baseballRequest import angels_game_over, get_runs
 
 #add angels
 #create archives
@@ -77,7 +78,7 @@ async def countdown_to_next_game(seconds_until_game):
         elif sport == "baseball":
             await send_both(TEST_CHANNEL, CHICKENWIN_CHANNEL,
                             'The Los Angeles Angels game has started! Support your local team and potentially win free chicken!')
-            # angels_runs.start()
+            angels_runs.start()
             update_schedule('jsonFiles/jsonAngels/angelsGamesUpdated.json')
 
         seconds_until_game[0] = get_seconds('jsonFiles/jsonDucks/ducksGamesUpdated.json',
