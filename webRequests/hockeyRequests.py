@@ -33,18 +33,15 @@ def get_score():
 
         with open('jsonFiles/jsonDucks/liveHockeyData.json') as f:
             jsondata = json.load(f)
-        # print('works')
+
+        for game in jsondata['events']:
+            if game['homeTeam']['name'] == 'Anaheim Ducks':
+                return game['homeScore']['current']
+
+
 
     except:
         # print("didn't work")
         RuntimeError("Could not retrieve data")
 
-    for game in jsondata['events']:
-        if game['homeTeam']['name'] == 'Anaheim Ducks':
-            return game['homeScore']['current']
-
     return -1
-
-
-
-# print(get_score())
