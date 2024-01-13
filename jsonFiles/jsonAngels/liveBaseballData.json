@@ -1,1 +1,360 @@
-[]
+{
+  "events": [
+    {
+      "tournament": {
+        "name": "ABL",
+        "slug": "abl",
+        "category": {
+          "name": "Australia",
+          "slug": "australia",
+          "sport": {
+            "name": "Baseball",
+            "slug": "baseball",
+            "id": 64
+          },
+          "id": 1701,
+          "flag": "australia",
+          "alpha2": "AU"
+        },
+        "uniqueTournament": {
+          "name": "ABL",
+          "slug": "abl",
+          "primaryColorHex": "#071D4A",
+          "secondaryColorHex": "#B1283C",
+          "category": {
+            "name": "Australia",
+            "slug": "australia",
+            "sport": {
+              "name": "Baseball",
+              "slug": "baseball",
+              "id": 64
+            },
+            "id": 1701,
+            "flag": "australia",
+            "alpha2": "AU"
+          },
+          "userCount": 154,
+          "id": 19445,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "crowdsourcingEnabled": false,
+          "hasPerformanceGraphFeature": false,
+          "displayInverseHomeAwayTeams": true
+        },
+        "priority": 0,
+        "id": 108788
+      },
+      "season": {
+        "name": "ABL 23/24",
+        "year": "23/24",
+        "editor": false,
+        "id": 56213
+      },
+      "roundInfo": {
+        "round": 9
+      },
+      "customId": "hlGdsjlGd",
+      "status": {
+        "code": 25,
+        "description": "5th Inning",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Canberra Cavalry",
+        "slug": "canberra-cavalry",
+        "shortName": "Canberra Cavalry",
+        "gender": "M",
+        "sport": {
+          "name": "Baseball",
+          "slug": "baseball",
+          "id": 64
+        },
+        "userCount": 61,
+        "nameCode": "CAC",
+        "national": false,
+        "type": 0,
+        "id": 453059,
+        "country": {
+          "alpha2": "AU",
+          "name": "Australia"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        }
+      },
+      "awayTeam": {
+        "name": "Brisbane Bandits",
+        "slug": "brisbane-bandits",
+        "shortName": "Brisbane Bandits",
+        "gender": "M",
+        "sport": {
+          "name": "Baseball",
+          "slug": "baseball",
+          "id": 64
+        },
+        "userCount": 84,
+        "nameCode": "BRB",
+        "national": false,
+        "type": 0,
+        "id": 453057,
+        "country": {
+          "alpha2": "AU",
+          "name": "Australia"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 0,
+        "period3": 0,
+        "period4": 0,
+        "innings": {
+          "inning1": {
+            "run": 1
+          },
+          "inning2": {
+            "run": 0
+          },
+          "inning3": {
+            "run": 0
+          },
+          "inning4": {
+            "run": 0
+          },
+          "inning5": {
+            "run": 1
+          }
+        }
+      },
+      "awayScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 0,
+        "period2": 2,
+        "period3": 1,
+        "period4": 0,
+        "innings": {
+          "inning1": {
+            "run": 0
+          },
+          "inning2": {
+            "run": 2
+          },
+          "inning3": {
+            "run": 1
+          },
+          "inning4": {
+            "run": 0
+          },
+          "inning5": {
+            "run": 0
+          }
+        }
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1704962378
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.innings"
+        ],
+        "changeTimestamp": 1704963425
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 11785451,
+      "startTimestamp": 1704958200,
+      "slug": "canberra-cavalry-brisbane-bandits",
+      "periods": {
+        "current": "Match",
+        "inning1": "1st Inning",
+        "inning2": "2nd Inning",
+        "inning3": "3rd Inning",
+        "inning4": "4th Inning",
+        "inning5": "5th Inning",
+        "inning6": "6th Inning",
+        "inning7": "7th Inning",
+        "inning8": "8th Inning",
+        "inning9": "9th Inning",
+        "extra1": "10th Inning"
+      },
+      "lastPeriod": "inning5",
+      "finalResultOnly": false,
+      "isEditor": false,
+      "crowdsourcingEnabled": false
+    },
+    {
+      "tournament": {
+        "name": "ABL",
+        "slug": "abl",
+        "category": {
+          "name": "Australia",
+          "slug": "australia",
+          "sport": {
+            "name": "Baseball",
+            "slug": "baseball",
+            "id": 64
+          },
+          "id": 1701,
+          "flag": "australia",
+          "alpha2": "AU"
+        },
+        "uniqueTournament": {
+          "name": "ABL",
+          "slug": "abl",
+          "primaryColorHex": "#071D4A",
+          "secondaryColorHex": "#B1283C",
+          "category": {
+            "name": "Australia",
+            "slug": "australia",
+            "sport": {
+              "name": "Baseball",
+              "slug": "baseball",
+              "id": 64
+            },
+            "id": 1701,
+            "flag": "australia",
+            "alpha2": "AU"
+          },
+          "userCount": 154,
+          "id": 19445,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "crowdsourcingEnabled": false,
+          "hasPerformanceGraphFeature": false,
+          "displayInverseHomeAwayTeams": true
+        },
+        "priority": 0,
+        "id": 108788
+      },
+      "season": {
+        "name": "ABL 23/24",
+        "year": "23/24",
+        "editor": false,
+        "id": 56213
+      },
+      "roundInfo": {
+        "round": 9
+      },
+      "customId": "klGdsolGd",
+      "status": {
+        "code": 30,
+        "description": "Pause",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Adelaide Giants",
+        "slug": "adelaide-giants",
+        "shortName": "Adelaide Giants",
+        "gender": "M",
+        "sport": {
+          "name": "Baseball",
+          "slug": "baseball",
+          "id": 64
+        },
+        "userCount": 170,
+        "nameCode": "ADG",
+        "national": false,
+        "type": 0,
+        "id": 453064,
+        "country": {
+          "alpha2": "AU",
+          "name": "Australia"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        }
+      },
+      "awayTeam": {
+        "name": "Sydney Blue Sox",
+        "slug": "sydney-blue-sox",
+        "shortName": "Sydney Blue Sox",
+        "gender": "M",
+        "sport": {
+          "name": "Baseball",
+          "slug": "baseball",
+          "id": 64
+        },
+        "userCount": 60,
+        "nameCode": "SBS",
+        "national": false,
+        "type": 0,
+        "id": 453060,
+        "country": {},
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        }
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "innings": {
+          "inning1": {
+            "run": 0
+          }
+        }
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "innings": {
+          "inning1": {
+            "run": 0
+          }
+        }
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1704963436
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1704963487
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 11785431,
+      "startTimestamp": 1704961800,
+      "slug": "adelaide-giants-sydney-blue-sox",
+      "periods": {
+        "current": "Match",
+        "inning1": "1st Inning",
+        "inning2": "2nd Inning",
+        "inning3": "3rd Inning",
+        "inning4": "4th Inning",
+        "inning5": "5th Inning",
+        "inning6": "6th Inning",
+        "inning7": "7th Inning",
+        "inning8": "8th Inning",
+        "inning9": "9th Inning",
+        "extra1": "10th Inning"
+      },
+      "finalResultOnly": false,
+      "isEditor": false,
+      "crowdsourcingEnabled": false
+    }
+  ]
+}

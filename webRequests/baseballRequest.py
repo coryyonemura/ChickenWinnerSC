@@ -21,21 +21,28 @@ headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-response = requests.request("GET", url, data=payload, headers=headers)
-
 def angels_game_over():
-    response = requests.request("GET", url, data = payload, headers = headers)
-    data = response.text
-    json_data = json.loads(data)
-    with open("jsonFiles/jsonAngels/liveBaseballData.json", 'w') as json_file:
-        json.dump(json_data, json_file, indent = 2)
+    try:
+        response = requests.request("GET", url, data = payload, headers = headers)
+        data = response.text
+        json_data = json.loads(data)
+        with open("jsonFiles/jsonAngels/liveBaseballData.json", 'w') as json_file:
+            json.dump(json_data, json_file, indent = 2)
 
+        with open('jsonFiles/jsonAngels/liveBaseballData.json') as f:
+            jsondata = json.load(f)
+
+        for game in jsondata['events']:
+            if game['homeTeam']['name'] == 'Los Angeles Angels':
+                return False
+        return True
+    except:
+        RuntimeError("could not retrieve data")
+
+def get_runs():
     with open('jsonFiles/jsonAngels/liveBaseballData.json') as f:
         jsondata = json.load(f)
 
     for game in jsondata['events']:
         if game['homeTeam']['name'] == 'Los Angeles Angels':
-            return False
-    return True
-
-angels_game_over()
+            return game['homeScore']['current']
