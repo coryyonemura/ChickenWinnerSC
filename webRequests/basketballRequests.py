@@ -1,5 +1,7 @@
 import requests
 import json
+import sys
+import os
 
 #url needs to add gameID.json
 url = "https://cdn.nba.com/static/json/liveData/playbyplay/playbyplay_"
@@ -31,10 +33,11 @@ def missed_freethrows():
         actions = jsondata['game']['actions']
         for actionNum in range(len(actions)):
             action = actions[actionNum]
-            if action['period'] == 4 and action['actionType'] == 'freethrow' and action['teamTricode'] != "LAC" and action['subType'] == "1 of 2" and action['shotResult'] == 'Miss' and actionNum != len(actions)-1:
-                actionNumPlus = actions[actionNum+2]
-                if actionNumPlus['shotResult'] == 'Missed':
-                    return True
+            if action['period'] == 4 and action['actionType'] == 'freethrow' and action['teamTricode'] != "LAC" and action['subType'] == "1 of 2" and action['shotResult'] == 'Missed' and actionNum != len(actions)-1:
+                for newActionNum in range(actionNum, len(actions)):
+                    action2 = actions[newActionNum]
+                    if action2['actionType'] == 'freethrow' and action2['subType'] == '2 of 2' and action2['shotResult'] == 'Missed':
+                        return True
         return False
     except:
         RuntimeError("could not retrieve data")
@@ -65,14 +68,12 @@ def game_over(gameId):
 
         json_data = json.loads(data)
 
-        with open('jsonFiles/jsonClippers/liveBasketballData.json', 'w') as json_file:
+        with open('jsonFiles\\jsonClippers\\liveBasketballData.json', 'w') as json_file:
             json.dump(json_data, json_file, indent = 2)
 
-        with open('jsonFiles/jsonClippers/liveBasketballData.json') as f:
+        with open('jsonFiles\\jsonClippers\\liveBasketballData.json') as f:
             jsondata = json.load(f)
-
         actions = jsondata['game']['actions']
-
         return actions[len(actions)-1] == 'Game End'
     except:
         RuntimeError("could not retrieve data")
