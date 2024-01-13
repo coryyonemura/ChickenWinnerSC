@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 
 url = "https://api.sofascore.com/api/v1/sport/football/events/live"
 
@@ -26,16 +27,22 @@ def lafc_game_over():
         response = requests.request("GET", url, data = payload, headers = headers)
         data = response.text
 
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        temp_path = os.path.join(script_dir,
+                                 'C:\\Users\\coryy\\OneDrive\\Desktop\\cfaSC\\jsonFiles\\jsonLAFC\\tempLiveData.json')
+        live_path = os.path.join(script_dir,
+                                 'C:\\Users\\coryy\\OneDrive\\Desktop\\cfaSC\\jsonFiles\\jsonLAFC\\liveSoccerData.json')
+
         json_data = json.loads(data)
-        with open("jsonFiles/jsonLAFC/liveSoccerData.json", 'w') as json_file:
+        with open(temp_path, 'w') as json_file:
             json.dump(json_data, json_file, indent = 2)
 
-        with open('jsonFiles/jsonLAFC/liveSoccerData.json') as f:
+        with open(temp_path) as f:
             jsondata = json.load(f)
 
         for game in jsondata["events"]:
             if game['homeTeam']['name'] == "LAFC":
-                with open("jsonFiles/jsonLAFC/liveSoccerData.json", 'w') as json_file:
+                with open(live_path, 'w') as json_file:
                     json.dump(json_data, json_file, indent = 2)
                 return False
         return True
@@ -44,13 +51,16 @@ def lafc_game_over():
         RuntimeError("could not retrieve data")
 
 def lafc_winner():
-    with open('jsonFiles/jsonLAFC/liveSoccerData.json') as f:
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    live_path = os.path.join(script_dir,
+                             'C:\\Users\\coryy\\OneDrive\\Desktop\\cfaSC\\jsonFiles\\jsonLAFC\\liveSoccerData.json')
+    with open(live_path) as f:
         jsondata = json.load(f)
+
 
     for game in jsondata['events']:
         if game['homeTeam']['name'] == "LAFC":
             lafcScore = game['homeScore']['current']
             awayScore = game['awayScore']['current']
             return lafcScore > awayScore
-
 
