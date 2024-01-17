@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands, tasks
-from scheduleUpdaters import return_first_game, update_schedule
+from scheduleUpdaters import return_first_game, update_schedule,get_current_clippers_game,send_current_clippers_game
 from webRequests.hockeyRequests import get_score
 from botHelpers import get_seconds, next_game_info, get_sport, condition, get_date
 from webRequests.soccerRequests import lafc_winner, lafc_game_over
@@ -73,6 +73,7 @@ async def countdown_to_next_game(seconds_until_game):
         elif sport == "basketball":
             await send_both(TEST_CHANNEL, CHICKENWIN_CHANNEL,
                             'The LA Clippers game has started! Support your local team and potentially win free chicken!')
+            send_current_clippers_game('jsonFiles/jsonClippers/current_game.json',return_first_game('jsonFiles/jsonClippers/clippersGamesUpdated.json')['gameId'])
             clippers_freethrows.start()
             update_schedule("jsonFiles/jsonClippers/clippersGamesUpdated.json")
         elif sport == "baseball":
@@ -114,12 +115,13 @@ async def lafc_win():
 
 @tasks.loop(seconds = SECONDS_PER_MINUTE)
 async def clippers_freethrows():
-    gameId = return_first_game('jsonFiles/jsonClippers/clippersGamesUpdated.json')['gameId']
+    gameId = get_current_clippers_game('jsonFiles/jsonClippers/current_game.json')
     if not clippers_game_over(gameId):
         if missed_freethrows():
             message = condition("Clippers'", 'missed two free throws in a row in the 4th quarter')
             await send_message(ARCHIVES_CHANNEL, f'**{get_date()}** - 🚨🏀 The Clippers opponent missed 2 free throws in a row during the 4th quarter! 🏀🏆 #freechicken')
             await send_both(TEST_CHANNEL, CHICKENWIN_CHANNEL, message)
+            # await send_message(TEST_CHANNEL, message)
             clippers_freethrows.stop()
     else:
         clippers_freethrows.stop()
