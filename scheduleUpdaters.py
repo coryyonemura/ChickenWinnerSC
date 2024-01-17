@@ -102,6 +102,18 @@ def return_first_game(file_path):
 #     with open(file_path_to, 'w') as file:
 #         json.dump(all_clippers_games, file, indent=2)
 
+
+def get_current_clippers_game(file_path):
+    with open(file_path) as file:
+        json_data = json.load(file)
+    return json_data
+
+def send_current_clippers_game(file_path, data):
+    with open(file_path, 'w') as file:
+        json.dump(data, file, indent = 2)
+
+
+
 def get_entire_clippers_schedule(file_path_from, file_path_to):
     with open(file_path_from) as file:
         json_data = json.load(file)
