@@ -1,7 +1,5 @@
 import requests
 import json
-import sys
-import os
 
 #url needs to add gameID.json
 url = "https://cdn.nba.com/static/json/liveData/playbyplay/playbyplay_"
@@ -38,6 +36,8 @@ def missed_freethrows():
                     action2 = actions[newActionNum]
                     if action2['actionType'] == 'freethrow' and action2['subType'] == '2 of 2' and action2['shotResult'] == 'Missed':
                         return True
+                    elif action2['actionType'] == 'freethrow' and action2['subType'] == '2 of 2' and action2['shotResult'] == 'Made':
+                        return False
         return False
     except:
         RuntimeError("could not retrieve data")
@@ -59,6 +59,7 @@ def clippers_game_over(gameId):
 
         return actions[len(actions)-1] == 'Game End'
     except:
+        print('bruh')
         RuntimeError("could not retrieve data")
 
 def game_over(gameId):
@@ -76,6 +77,7 @@ def game_over(gameId):
         actions = jsondata['game']['actions']
         return actions[len(actions)-1] == 'Game End'
     except:
+        print('why')
         RuntimeError("could not retrieve data")
 
 # def clippers_test():
